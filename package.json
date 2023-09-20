@@ -1,0 +1,27 @@
+{
+  "name": "cypress-end-to-end",
+  "version": "1.0.0",
+  "description": "poc for cypress end-to-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MariaAvramescu26"
+  },
+  "keywords": [
+    "e2e",
+    "automation",
+    "framework",
+    "cypress"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress": "^13.2.0"
+  }
+}
